@@ -1,5 +1,5 @@
 ## makeCacheMatrix and cacheSolve are a pair of functions that possibly speedups the 
-## computation of inverse matrix by caching the previouslly computed inversions.  
+## computation of inverse matrix by caching the previouslly computed inverse matrices.  
 
 ## makeCacheMatrix instantiates and caches an object which holds a matrix and its inverse.
 makeCacheMatrix <- function(x = matrix()) {
